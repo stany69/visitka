@@ -1,0 +1,146 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(210, 146, 114);
+    
+    
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color:rgba(165, 42, 42, 0.449);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.header_heading{
+    font-size: 25px;
+    color: rgb(241, 241, 241);
+}
+
+.header_nav{
+    width: 20%;
+}
+
+.header_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(229, 228, 217);
+}
+
+.header_menu_li:nth-child(even){
+    color: rgb(226, 215, 215);
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    box-sizing: border-box;
+
+
+}
+
+.main_profile_info_block{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.profile_info{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_photo{
+    width: 100%;
+    height: 80%;
+}
+
+.profile_username{
+    font-size: 14px;
+    margin: 0;
+    color: azure;
+}
+
+.profile_description{
+    width: 40%;
+    height: 50%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: .5em 1em;
+}
+
+.profile_descr_text{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    color: rgb(9, 9, 10);
+}
+
+.main2p{
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    box-sizing: border-box; 
+
+}
+.mainp3{
+    width: 100%;
+    height: 90%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.book_photo{
+    width: 22%;
+    height: 130%;
+}
+ 
+
+.my_dreams_description_box{
+    width: 40%;
+    height: 50%;
+    border: 4px solid grey;
+    box-sizing: border-box;
+    padding: .5em 2em;
+}
+.exotic_photo{
+    width: 15%;
+    height: 15%;
+}
+.nightcity_photo{
+    width: 20%;
+    height: 20%;
+}
+.stadion_photo{
+    width: 20%;
+    height: 20%; 
+}
+.ski_photo{
+    width: 20%;
+    height: 20%;   
+}
+.monaco_photo{
+    width: 20%;
+    height: 20%;   
+}
